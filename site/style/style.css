@@ -1,0 +1,25 @@
+/*Main Stylesheet for Finn's Website*/
+
+body {
+    background-color:#004C70;
+    color:#f4d00c;
+    margin:0;
+}
+
+#encapsulate-banner{
+    background-color:#0093D1;
+}
+
+#encapsulate-banner footer {
+    color:rgb(231, 217, 139);
+    font-style:italic;
+}
+
+#mbody{
+    padding:0;
+    background-color:#006495;
+}
+
+#bio h2 {
+    color:#F2635F;
+}
