@@ -1,25 +1,51 @@
 /*Main Stylesheet for Finn's Website*/
 
 body {
-    background-color:#004C70;
+    background-color:#004c70;
     color:#f4d00c;
     margin:0;
 }
 
-#encapsulate-banner{
-    background-color:#0093D1;
+#banner {
+    background:linear-gradient(rgba(0, 76, 112, 0.4), rgba(4, 117, 170, 0.4), transparent), url("../media/techdeck2.gif") no-repeat bottom;
+    background-size:cover;
+    color:#f4d00c;
+    height:30em;
 }
 
-#encapsulate-banner footer {
+
+#banner footer {
     color:rgb(231, 217, 139);
     font-style:italic;
 }
 
-#mbody{
-    padding:0;
+#bio {
+    padding:10px;
     background-color:#006495;
+    color:#f4d00c;
+    height:40em;
 }
 
+
+#gfx {
+    background-image:url("../media/techdeck1.gif");
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size:cover;
+}
+
+
+#media {
+    background: url("../media/techdeck3.gif") no-repeat bottom;
+    background-size:cover;
+    text-align:center;
+    color:#f4d00c;
+    height:30em;
+}
+
+#media h1{
+    color:#f4d00c
+}
 #bio h2 {
     color:#F2635F;
 }
